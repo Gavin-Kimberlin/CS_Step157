@@ -10,6 +10,10 @@ namespace CS_Step157
     {
         static void Main(string[] args)
         {
+            int input1 = 45;
+            int input2 = 31;
+            Class1.someMethod(input1, input2);
+            Console.ReadLine();
         }
     }
 }
