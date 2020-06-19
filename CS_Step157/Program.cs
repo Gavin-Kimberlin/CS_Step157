@@ -12,7 +12,8 @@ namespace CS_Step157
         {
             int input1 = 45;
             int input2 = 31;
-            Class1.someMethod(input1, input2);
+            Class1 classObj = new Class1();
+            classObj.someMethod(input1, input2);
             Console.ReadLine();
         }
     }
